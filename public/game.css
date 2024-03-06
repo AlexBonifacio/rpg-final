@@ -1,0 +1,14 @@
+.game-logs-container {
+    left: auto;
+    max-height: 75vh;
+    min-height: 200px;
+    width: 30vw;
+    min-width: 300px;
+    overflow-y: scroll;
+}
+
+.game-logs-container .list-group {
+    flex-direction: column-reverse;
+    justify-content: end;
+    height: 100%;
+}
